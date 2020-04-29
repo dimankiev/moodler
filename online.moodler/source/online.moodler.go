@@ -21,7 +21,7 @@ type about struct {
 // If you make modification of this program - just add after dimankiev "x your_username"
 // For example: author: "dimankiev x modderUsername"
 // ONLY FOR EDUCATIONAL PURPOSES | COMMERCIAL USAGE IS FORBIDDEN
-var aboutProgram = about{name: "[Moodler Toolkit] Online Bot", version: "1.0", author: "dimankiev"}
+var aboutProgram = about{name: "[Moodler Toolkit] Online Bot", version: "1.0.0", author: "dimankiev"}
 
 // Configuration represents the storage for Moodle configuration
 type Configuration struct {
@@ -31,7 +31,7 @@ type Configuration struct {
 }
 
 func readConfiguration() Configuration {
-	data, err := ioutil.ReadFile("../../../settings.json") // Open json file with credentials
+	data, err := ioutil.ReadFile("../../../../settings.json") // Open json file with credentials
 	if err != nil {
 		fmt.Print(err)
 	}
