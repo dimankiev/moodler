@@ -4,7 +4,8 @@ It's a toolkit for Moodle, mostly written in crossplatform language - Go
 ### How to build ?
 1. Visit [Go "Getting Started"](https://golang.org/doc/install) page
 2. Choose suitable for your OS package, download and install it by the guide given on that page
-3. On linux - run `chmod 1777 build.sh && ./build.sh`, on Windows - run Powershell script `build.ps`
+3. Use `git clone https://github.com/dimankiev/moodler.git` or download archived branch file `master.zip`
+4. On linux - run `chmod 1777 build.sh && ./build.sh`, on Windows - run Powershell script `build.ps`
 ### How to run ?
 Your executable file will be available at `<package_name>.moodler/build/<os>/<arch>`
 For example:
