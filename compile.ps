@@ -1,0 +1,7 @@
+$env:GOOS = "windows"
+$env:GOARCH = "386"
+echo "Building 'Moodler Online Bot x86' for Windows..."
+go build -o online.moodler/bin/windows/86/online.moodler.exe online.moodler/source/online.moodler.go
+$env:GOOS = "linux"
+echo "Building 'Moodler Online Bot x86' for Linux..."
+go build -o online.moodler/bin/linux/86/online.moodler.run online.moodler/source/online.moodler.go
