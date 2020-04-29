@@ -14,6 +14,9 @@ user@pc $> cd online.moodler/build/linux/86
 user@pc $> ./online.moodler.run
 ```
 ##### Before you run: Set your Moodle domain and credentials in `settings.json` file
+ - moodleDomain -> The domain, where is the Moodle placed
+ - username -> The username of your Moodle account
+ - password -> The password of your Moodle account
 ### FAQ
 #### Why I get "Authorizing... Failed" ?
 Check your settings and Internet connection.
